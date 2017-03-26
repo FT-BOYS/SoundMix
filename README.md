@@ -1,2 +1,1 @@
-# SoundMix
-Audio Generate &amp; Analyse
+真机编译时需要将AudioKit.framework拷贝到工程目录下的Framework中
