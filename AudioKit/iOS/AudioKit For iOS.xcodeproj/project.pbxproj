@@ -755,7 +755,6 @@
 		E4630B501D2BC7F800437E75 /* AKMoogLadderPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4630B4F1D2BC7F800437E75 /* AKMoogLadderPresets.swift */; };
 		EA6949E21C59A9FC0035B5DF /* AKSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6949E11C59A9FC0035B5DF /* AKSettings.swift */; };
 		EA8BA9821C5E24AE00BBD469 /* AKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BA9811C5E24AE00BBD469 /* AKView.swift */; };
-		EAF85D141E88060500BD61C2 /* README in Resources */ = {isa = PBXBuildFile; fileRef = EAF85D131E88060500BD61C2 /* README */; };
 		EAF9C9871C69A3E500C10CCE /* AKDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9C9861C69A3E500C10CCE /* AKDevice.swift */; };
 		FE52FEEF1CB70A8500A35B63 /* AKAUPresetBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52FEEE1CB70A8500A35B63 /* AKAUPresetBuilder.swift */; };
 		FEBD4F6F1C5D47550007B60D /* AKMIDIListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD4F6E1C5D47550007B60D /* AKMIDIListener.swift */; };
@@ -1522,7 +1521,6 @@
 		E4630B4F1D2BC7F800437E75 /* AKMoogLadderPresets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMoogLadderPresets.swift; sourceTree = "<group>"; };
 		EA6949E11C59A9FC0035B5DF /* AKSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKSettings.swift; sourceTree = "<group>"; };
 		EA8BA9811C5E24AE00BBD469 /* AKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKView.swift; sourceTree = "<group>"; };
-		EAF85D131E88060500BD61C2 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../../README; sourceTree = "<group>"; };
 		EAF9C9861C69A3E500C10CCE /* AKDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKDevice.swift; sourceTree = "<group>"; };
 		FE52FEEE1CB70A8500A35B63 /* AKAUPresetBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKAUPresetBuilder.swift; sourceTree = "<group>"; };
 		FEBD4F6E1C5D47550007B60D /* AKMIDIListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMIDIListener.swift; sourceTree = "<group>"; };
@@ -1786,7 +1784,6 @@
 		C42F34F61C057E03000E937C = {
 			isa = PBXGroup;
 			children = (
-				EAF85D131E88060500BD61C2 /* README */,
 				C42F35021C057E03000E937C /* AudioKit */,
 				C446B3C31D45296A000AEFCA /* Playgrounds */,
 				C42F35011C057E03000E937C /* Products */,
@@ -3682,7 +3679,6 @@
 				C4A929601D1343AE0095E429 /* mand12.raw in Resources */,
 				C4A929641D1343AE0095E429 /* mand5.raw in Resources */,
 				C4A929661D1343AE0095E429 /* mand7.raw in Resources */,
-				EAF85D141E88060500BD61C2 /* README in Resources */,
 				C4A9295F1D1343AE0095E429 /* mand11.raw in Resources */,
 				C4A929681D1343AE0095E429 /* mand9.raw in Resources */,
 				C4A929691D1343AE0095E429 /* mandpluk.raw in Resources */,
