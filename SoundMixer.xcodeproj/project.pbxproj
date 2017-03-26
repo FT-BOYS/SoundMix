@@ -41,6 +41,7 @@
 		EAB9A9F61E877178009F2AAD /* mixloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAB9A9F11E877178009F2AAD /* mixloop.wav */; };
 		EAB9AA061E87F5B5009F2AAD /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB9AA021E87EBD8009F2AAD /* AudioKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		EAB9AA071E87F5B5009F2AAD /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EAB9AA021E87EBD8009F2AAD /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EAF85D181E8809BF00BD61C2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EAF85D171E8809BF00BD61C2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		EAB9A9F01E877178009F2AAD /* leadloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = leadloop.wav; sourceTree = "<group>"; };
 		EAB9A9F11E877178009F2AAD /* mixloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mixloop.wav; sourceTree = "<group>"; };
 		EAB9A9FD1E87EBD7009F2AAD /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = "<group>"; };
+		EAF85D171E8809BF00BD61C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				327E179D1E83AB0500686F07 /* SoundMixerTests */,
 				327E17A81E83AB0500686F07 /* SoundMixerUITests */,
 				327E17851E83AB0500686F07 /* Products */,
+				EAF85D171E8809BF00BD61C2 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -447,6 +450,7 @@
 				32D4777D1E83EB6800084D62 /* PlayViewController.swift in Sources */,
 				32D477791E83E63700084D62 /* OtherViewController.swift in Sources */,
 				3216DE691E86980400584F6E /* TrackViewController.swift in Sources */,
+				EAF85D181E8809BF00BD61C2 /* README.md in Sources */,
 				3216DE751E86A14800584F6E /* Track5ViewController.swift in Sources */,
 				326A61F81E864AD4006574C0 /* BitCrucherViewController.swift in Sources */,
 				3216DE6F1E86A10300584F6E /* Track2ViewController.swift in Sources */,
