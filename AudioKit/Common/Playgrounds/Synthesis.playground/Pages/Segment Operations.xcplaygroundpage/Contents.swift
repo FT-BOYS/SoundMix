@@ -1,13 +1,13 @@
 //: ## Segment Operations
 //: Creating segments that vary parameters in operations linearly or exponentially over a certain duration
-import PlaygroundSupport
+
 import AudioKit
 
-let generator = AKOperationGenerator() { parameters in
+let generator = AKOperationGenerator { parameters in
     let updateRate = parameters[0]
 
     // Vary the starting frequency and duration randomly
-    let start = AKOperation.randomNumberPulse() * 2000 + 300
+    let start = AKOperation.randomNumberPulse() * 2_000 + 300
     let duration = AKOperation.randomNumberPulse()
     let frequency = AKOperation.lineSegment(
         trigger: AKOperation.metronome(frequency: updateRate),
@@ -24,12 +24,11 @@ let generator = AKOperationGenerator() { parameters in
     return AKOperation.sineWave(frequency: frequency, amplitude:  amplitude)
 }
 
-
 var delay = AKDelay(generator)
 
 //: Add some effects for good fun
-delay.time = 0.125
-delay.feedback = 0.8
+//delay.time = 0.125
+//delay.feedback = 0.8
 var reverb = AKReverb(delay)
 reverb.loadFactoryPreset(.largeHall)
 
@@ -52,9 +51,10 @@ class PlaygroundView: AKPlaygroundView {
         ) { rate in
             generator.parameters[0] = rate
             delay.time = 0.25 / rate
-            })
+        })
     }
 }
 
+import PlaygroundSupport
 PlaygroundPage.current.needsIndefiniteExecution = true
 PlaygroundPage.current.liveView = PlaygroundView()

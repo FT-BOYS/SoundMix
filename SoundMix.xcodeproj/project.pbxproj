@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A927EA1EAB54C500BDB532 /* ThridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A927E91EAB54C500BDB532 /* ThridViewController.swift */; };
+		32AE753C1EA7633D0062DCDB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE753B1EA7633D0062DCDB /* SecondViewController.swift */; };
+		32F4708A1EA2337200362C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F470891EA2337200362C1B /* AppDelegate.swift */; };
+		32F4708C1EA2337200362C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F4708B1EA2337200362C1B /* ViewController.swift */; };
+		32F4708F1EA2337200362C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F4708D1EA2337200362C1B /* Main.storyboard */; };
+		32F470911EA2337200362C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F470901EA2337200362C1B /* Assets.xcassets */; };
+		32F470941EA2337200362C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F470921EA2337200362C1B /* LaunchScreen.storyboard */; };
+		32F4709F1EA2337200362C1B /* SoundMixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F4709E1EA2337200362C1B /* SoundMixTests.swift */; };
+		32F470AA1EA2337200362C1B /* SoundMixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F470A91EA2337200362C1B /* SoundMixUITests.swift */; };
+		EA13F6C71EAD0495007433AA /* SMAudioEffector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13F6C21EAD0495007433AA /* SMAudioEffector.swift */; };
+		EA13F6C81EAD0495007433AA /* SMEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13F6C31EAD0495007433AA /* SMEnum.swift */; };
+		EA13F6C91EAD0495007433AA /* SMInstrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13F6C41EAD0495007433AA /* SMInstrument.swift */; };
+		EA13F6CA1EAD0495007433AA /* SMVocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13F6C51EAD0495007433AA /* SMVocal.swift */; };
+		EA13F6CB1EAD0495007433AA /* SongProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13F6C61EAD0495007433AA /* SongProcessor.swift */; };
+		EA13F6D21EAD0650007433AA /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA13F6D11EAD049E007433AA /* AudioKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EA13F6D31EAD0650007433AA /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA13F6D11EAD049E007433AA /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA593AF21EAD0BE200673A18 /* bassloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA593AED1EAD0BE200673A18 /* bassloop.wav */; };
+		EA593AF31EAD0BE200673A18 /* drumloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA593AEE1EAD0BE200673A18 /* drumloop.wav */; };
+		EA593AF41EAD0BE200673A18 /* guitarloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA593AEF1EAD0BE200673A18 /* guitarloop.wav */; };
+		EA593AF51EAD0BE200673A18 /* leadloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA593AF01EAD0BE200673A18 /* leadloop.wav */; };
+		EA593AF61EAD0BE200673A18 /* mixloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA593AF11EAD0BE200673A18 /* mixloop.wav */; };
+		EA8631D41EBA444C005D375E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8631D31EBA444C005D375E /* icon.png */; };
+		EAD25A991EB8B49800D22133 /* testAcc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAD25A981EB8B49800D22133 /* testAcc.mp3 */; };
+		EAD2A9701EBB618000D253F2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2A96F1EBB618000D253F2 /* TestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F4709B1EA2337200362C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F4707E1EA2337200362C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F470851EA2337200362C1B;
+			remoteInfo = SoundMix;
+		};
+		32F470A61EA2337200362C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F4707E1EA2337200362C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F470851EA2337200362C1B;
+			remoteInfo = SoundMix;
+		};
+		EA13F6D01EAD049E007433AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA13F6CC1EAD049E007433AA /* AudioKit For iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C42F35001C057E03000E937C;
+			remoteInfo = AudioKit;
+		};
+		EA13F6D41EAD0650007433AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA13F6CC1EAD049E007433AA /* AudioKit For iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C42F34FF1C057E03000E937C;
+			remoteInfo = AudioKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3299B0F31EA3A40000E8294A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EA13F6D31EAD0650007433AA /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32A927E91EAB54C500BDB532 /* ThridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThridViewController.swift; sourceTree = "<group>"; };
+		32AE753B1EA7633D0062DCDB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		32F470861EA2337200362C1B /* SoundMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F470891EA2337200362C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32F4708B1EA2337200362C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32F4708E1EA2337200362C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32F470901EA2337200362C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32F470931EA2337200362C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32F470951EA2337200362C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F4709A1EA2337200362C1B /* SoundMixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundMixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F4709E1EA2337200362C1B /* SoundMixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMixTests.swift; sourceTree = "<group>"; };
+		32F470A01EA2337200362C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F470A51EA2337200362C1B /* SoundMixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundMixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F470A91EA2337200362C1B /* SoundMixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMixUITests.swift; sourceTree = "<group>"; };
+		32F470AB1EA2337200362C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA13F6C21EAD0495007433AA /* SMAudioEffector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAudioEffector.swift; sourceTree = "<group>"; };
+		EA13F6C31EAD0495007433AA /* SMEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMEnum.swift; sourceTree = "<group>"; };
+		EA13F6C41EAD0495007433AA /* SMInstrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMInstrument.swift; sourceTree = "<group>"; };
+		EA13F6C51EAD0495007433AA /* SMVocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMVocal.swift; sourceTree = "<group>"; };
+		EA13F6C61EAD0495007433AA /* SongProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongProcessor.swift; sourceTree = "<group>"; };
+		EA13F6CC1EAD049E007433AA /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = "<group>"; };
+		EA593AED1EAD0BE200673A18 /* bassloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bassloop.wav; sourceTree = "<group>"; };
+		EA593AEE1EAD0BE200673A18 /* drumloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drumloop.wav; sourceTree = "<group>"; };
+		EA593AEF1EAD0BE200673A18 /* guitarloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitarloop.wav; sourceTree = "<group>"; };
+		EA593AF01EAD0BE200673A18 /* leadloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = leadloop.wav; sourceTree = "<group>"; };
+		EA593AF11EAD0BE200673A18 /* mixloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mixloop.wav; sourceTree = "<group>"; };
+		EA8631D31EBA444C005D375E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EAD25A981EB8B49800D22133 /* testAcc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = testAcc.mp3; sourceTree = "<group>"; };
+		EAD2A96F1EBB618000D253F2 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F470831EA2337200362C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13F6D21EAD0650007433AA /* AudioKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F470971EA2337200362C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F470A21EA2337200362C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F4707D1EA2337200362C1B = {
+			isa = PBXGroup;
+			children = (
+				EA8631D31EBA444C005D375E /* icon.png */,
+				EA593AEC1EAD0BE200673A18 /* loops */,
+				EA13F6CC1EAD049E007433AA /* AudioKit For iOS.xcodeproj */,
+				32F470881EA2337200362C1B /* SoundMix */,
+				32F4709D1EA2337200362C1B /* SoundMixTests */,
+				32F470A81EA2337200362C1B /* SoundMixUITests */,
+				32F470871EA2337200362C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32F470871EA2337200362C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F470861EA2337200362C1B /* SoundMix.app */,
+				32F4709A1EA2337200362C1B /* SoundMixTests.xctest */,
+				32F470A51EA2337200362C1B /* SoundMixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32F470881EA2337200362C1B /* SoundMix */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F6C11EAD0495007433AA /* AudioClass */,
+				32F470891EA2337200362C1B /* AppDelegate.swift */,
+				32F4708B1EA2337200362C1B /* ViewController.swift */,
+				32AE753B1EA7633D0062DCDB /* SecondViewController.swift */,
+				32A927E91EAB54C500BDB532 /* ThridViewController.swift */,
+				EAD2A96F1EBB618000D253F2 /* TestViewController.swift */,
+				32F4708D1EA2337200362C1B /* Main.storyboard */,
+				32F470901EA2337200362C1B /* Assets.xcassets */,
+				32F470921EA2337200362C1B /* LaunchScreen.storyboard */,
+				32F470951EA2337200362C1B /* Info.plist */,
+			);
+			path = SoundMix;
+			sourceTree = "<group>";
+		};
+		32F4709D1EA2337200362C1B /* SoundMixTests */ = {
+			isa = PBXGroup;
+			children = (
+				32F4709E1EA2337200362C1B /* SoundMixTests.swift */,
+				32F470A01EA2337200362C1B /* Info.plist */,
+			);
+			path = SoundMixTests;
+			sourceTree = "<group>";
+		};
+		32F470A81EA2337200362C1B /* SoundMixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32F470A91EA2337200362C1B /* SoundMixUITests.swift */,
+				32F470AB1EA2337200362C1B /* Info.plist */,
+			);
+			path = SoundMixUITests;
+			sourceTree = "<group>";
+		};
+		EA13F6C11EAD0495007433AA /* AudioClass */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F6C21EAD0495007433AA /* SMAudioEffector.swift */,
+				EA13F6C31EAD0495007433AA /* SMEnum.swift */,
+				EA13F6C41EAD0495007433AA /* SMInstrument.swift */,
+				EA13F6C51EAD0495007433AA /* SMVocal.swift */,
+				EA13F6C61EAD0495007433AA /* SongProcessor.swift */,
+			);
+			path = AudioClass;
+			sourceTree = SOURCE_ROOT;
+		};
+		EA13F6CD1EAD049E007433AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F6D11EAD049E007433AA /* AudioKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA593AEC1EAD0BE200673A18 /* loops */ = {
+			isa = PBXGroup;
+			children = (
+				EAD25A981EB8B49800D22133 /* testAcc.mp3 */,
+				EA593AED1EAD0BE200673A18 /* bassloop.wav */,
+				EA593AEE1EAD0BE200673A18 /* drumloop.wav */,
+				EA593AEF1EAD0BE200673A18 /* guitarloop.wav */,
+				EA593AF01EAD0BE200673A18 /* leadloop.wav */,
+				EA593AF11EAD0BE200673A18 /* mixloop.wav */,
+			);
+			path = loops;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F470851EA2337200362C1B /* SoundMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F470AE1EA2337200362C1B /* Build configuration list for PBXNativeTarget "SoundMix" */;
+			buildPhases = (
+				32F470821EA2337200362C1B /* Sources */,
+				32F470831EA2337200362C1B /* Frameworks */,
+				32F470841EA2337200362C1B /* Resources */,
+				3299B0F31EA3A40000E8294A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA13F6D51EAD0650007433AA /* PBXTargetDependency */,
+			);
+			name = SoundMix;
+			productName = SoundMix;
+			productReference = 32F470861EA2337200362C1B /* SoundMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32F470991EA2337200362C1B /* SoundMixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F470B11EA2337200362C1B /* Build configuration list for PBXNativeTarget "SoundMixTests" */;
+			buildPhases = (
+				32F470961EA2337200362C1B /* Sources */,
+				32F470971EA2337200362C1B /* Frameworks */,
+				32F470981EA2337200362C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F4709C1EA2337200362C1B /* PBXTargetDependency */,
+			);
+			name = SoundMixTests;
+			productName = SoundMixTests;
+			productReference = 32F4709A1EA2337200362C1B /* SoundMixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32F470A41EA2337200362C1B /* SoundMixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F470B41EA2337200362C1B /* Build configuration list for PBXNativeTarget "SoundMixUITests" */;
+			buildPhases = (
+				32F470A11EA2337200362C1B /* Sources */,
+				32F470A21EA2337200362C1B /* Frameworks */,
+				32F470A31EA2337200362C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F470A71EA2337200362C1B /* PBXTargetDependency */,
+			);
+			name = SoundMixUITests;
+			productName = SoundMixUITests;
+			productReference = 32F470A51EA2337200362C1B /* SoundMixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32F4707E1EA2337200362C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "冯嘉晨";
+				TargetAttributes = {
+					32F470851EA2337200362C1B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2D9SU7QP8R;
+						ProvisioningStyle = Automatic;
+					};
+					32F470991EA2337200362C1B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32F470851EA2337200362C1B;
+					};
+					32F470A41EA2337200362C1B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32F470851EA2337200362C1B;
+					};
+				};
+			};
+			buildConfigurationList = 32F470811EA2337200362C1B /* Build configuration list for PBXProject "SoundMix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32F4707D1EA2337200362C1B;
+			productRefGroup = 32F470871EA2337200362C1B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EA13F6CD1EAD049E007433AA /* Products */;
+					ProjectRef = EA13F6CC1EAD049E007433AA /* AudioKit For iOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				32F470851EA2337200362C1B /* SoundMix */,
+				32F470991EA2337200362C1B /* SoundMixTests */,
+				32F470A41EA2337200362C1B /* SoundMixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EA13F6D11EAD049E007433AA /* AudioKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AudioKit.framework;
+			remoteRef = EA13F6D01EAD049E007433AA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32F470841EA2337200362C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA593AF31EAD0BE200673A18 /* drumloop.wav in Resources */,
+				32F470941EA2337200362C1B /* LaunchScreen.storyboard in Resources */,
+				32F470911EA2337200362C1B /* Assets.xcassets in Resources */,
+				EA593AF51EAD0BE200673A18 /* leadloop.wav in Resources */,
+				32F4708F1EA2337200362C1B /* Main.storyboard in Resources */,
+				EA593AF41EAD0BE200673A18 /* guitarloop.wav in Resources */,
+				EAD25A991EB8B49800D22133 /* testAcc.mp3 in Resources */,
+				EA593AF21EAD0BE200673A18 /* bassloop.wav in Resources */,
+				EA593AF61EAD0BE200673A18 /* mixloop.wav in Resources */,
+				EA8631D41EBA444C005D375E /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F470981EA2337200362C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F470A31EA2337200362C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F470821EA2337200362C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD2A9701EBB618000D253F2 /* TestViewController.swift in Sources */,
+				32AE753C1EA7633D0062DCDB /* SecondViewController.swift in Sources */,
+				32F4708C1EA2337200362C1B /* ViewController.swift in Sources */,
+				EA13F6C71EAD0495007433AA /* SMAudioEffector.swift in Sources */,
+				32A927EA1EAB54C500BDB532 /* ThridViewController.swift in Sources */,
+				EA13F6C81EAD0495007433AA /* SMEnum.swift in Sources */,
+				EA13F6CA1EAD0495007433AA /* SMVocal.swift in Sources */,
+				32F4708A1EA2337200362C1B /* AppDelegate.swift in Sources */,
+				EA13F6CB1EAD0495007433AA /* SongProcessor.swift in Sources */,
+				EA13F6C91EAD0495007433AA /* SMInstrument.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F470961EA2337200362C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F4709F1EA2337200362C1B /* SoundMixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F470A11EA2337200362C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F470AA1EA2337200362C1B /* SoundMixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32F4709C1EA2337200362C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F470851EA2337200362C1B /* SoundMix */;
+			targetProxy = 32F4709B1EA2337200362C1B /* PBXContainerItemProxy */;
+		};
+		32F470A71EA2337200362C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F470851EA2337200362C1B /* SoundMix */;
+			targetProxy = 32F470A61EA2337200362C1B /* PBXContainerItemProxy */;
+		};
+		EA13F6D51EAD0650007433AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AudioKit;
+			targetProxy = EA13F6D41EAD0650007433AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32F4708D1EA2337200362C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F4708E1EA2337200362C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32F470921EA2337200362C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F470931EA2337200362C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32F470AC1EA2337200362C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32F470AD1EA2337200362C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F470AF1EA2337200362C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2D9SU7QP8R;
+				INFOPLIST_FILE = SoundMix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoundMix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		32F470B01EA2337200362C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2D9SU7QP8R;
+				INFOPLIST_FILE = SoundMix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoundMix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		32F470B21EA2337200362C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoundMixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoundMixer.fengjiachen.com.SoundMixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundMix.app/SoundMix";
+			};
+			name = Debug;
+		};
+		32F470B31EA2337200362C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoundMixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoundMixer.fengjiachen.com.SoundMixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundMix.app/SoundMix";
+			};
+			name = Release;
+		};
+		32F470B51EA2337200362C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SoundMixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoundMixer.fengjiachen.com.SoundMixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoundMix;
+			};
+			name = Debug;
+		};
+		32F470B61EA2337200362C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SoundMixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoundMixer.fengjiachen.com.SoundMixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoundMix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32F470811EA2337200362C1B /* Build configuration list for PBXProject "SoundMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F470AC1EA2337200362C1B /* Debug */,
+				32F470AD1EA2337200362C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F470AE1EA2337200362C1B /* Build configuration list for PBXNativeTarget "SoundMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F470AF1EA2337200362C1B /* Debug */,
+				32F470B01EA2337200362C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F470B11EA2337200362C1B /* Build configuration list for PBXNativeTarget "SoundMixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F470B21EA2337200362C1B /* Debug */,
+				32F470B31EA2337200362C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F470B41EA2337200362C1B /* Build configuration list for PBXNativeTarget "SoundMixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F470B51EA2337200362C1B /* Debug */,
+				32F470B61EA2337200362C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32F4707E1EA2337200362C1B /* Project object */;
+}
